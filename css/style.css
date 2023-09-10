@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+/* generic  */
+
+body {
+    font-size: 14px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #000000de;
+    background: #f7f7f5;
+}
+
+/* .mx-width{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 60px;
+} */
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.attention {
+    /* display: flex;
+    justify-content:center; */
+    font-weight: 500;
+    background-color: rgb(184, 238, 242);
+}
+
+.focus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.focus .left {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid gold;
+    border-radius: 50%;
+    margin: 16px;
+    background-color: yellow;
+}
+
+.focus .left img {
+    width: 350px;
+    height: 350px;
+}
+
+.focus .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+.focus .main img {
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    padding: 8px;
+    animation: rotateImg 2s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(0deg);
+    }
+   to {
+    transform: rotate(359deg);
+   }
+  }
+
+.focus .main .contact p{
+    font-weight: 500;
+}
+
+.focus .right {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid gold;
+    border-radius: 50%;
+    margin: 16px;
+    /* background-color: yellow; */
+}
+
+.services {
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.services div {
+    width: 400px;
+    margin: 8px;
+}
+
+.services ul li{
+    margin: 8px 8px 8px -8px;
+    padding: 8px;
+    background-color: #eef;
+    list-style: none;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.services ul li:hover {
+    background-color: #eff;
+}
